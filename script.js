@@ -49,7 +49,7 @@ async function send() {
         method: 'POST',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '7b18740137msh4be1b00d17fda6bp1bbccfjsndafb6bd5ced1',
+            'X-RapidAPI-Key': 'Your Key',
             'X-RapidAPI-Host': 'getitsmswhatsappapi.p.rapidapi.com',
             // 'Access-Control-Allow-Origin':'*'
         },
@@ -91,7 +91,7 @@ function sendme() {
         method: 'POST',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '7b18740137msh4be1b00d17fda6bp1bbccfjsndafb6bd5ced1',
+            'X-RapidAPI-Key': 'Your Key',
             'X-RapidAPI-Host': 'getitsmswhatsappapi.p.rapidapi.com'
         },
         body: '{"key1":"value","key2":"value"}'
