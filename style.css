@@ -1,0 +1,156 @@
+*{
+    font-family: cursive;
+}
+html{
+    
+    background: #781786;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38898f, #a236b3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1b747a, #721181); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: auto; */
+    text-align: center;
+}
+.tnc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+nav{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    color: black;
+    border: 2px solid white;
+    background: #004FF9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: x-large;
+
+    height: 2rem;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    
+}
+.sen{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 10px;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 53vh;
+    width: 40vw;
+    border: 2px solid #a236b3;
+    
+    
+}
+.rec{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding-top: 1rem;
+    border: 2px solid #a236b3;
+    border-radius: 10px;
+    height: 50vh;
+    width: 40vw;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cont{
+    padding-top: 2rem;
+}
+.tick{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid red;
+}
+.inp{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid red;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 3rem;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inp1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid red;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 3rem;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 80%;
+    background-color: lightblue;
+    border: 2px solid navy;
+    border-radius: 10px;
+    padding: 10px;
+    height: 80%;
+    
+}
+button{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    height: 2rem;
+    width: 20%;
+    background-color: rgb(138, 80, 231);
+    border-radius: 6px;
+    border: 1px solid lightblue;
+
+}
+button:active{
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width:600px) {
+
+
+    .navbar{
+        font-size: 14px;
+    }
+    .cont{
+        display: block;
+    }
+    .sen{
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .rec{
+        margin: auto;
+        width: 90vw;
+    }
+    nav{
+        margin-bottom: 0.5rem;
+    }
+    
+}
